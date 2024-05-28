@@ -1,0 +1,8 @@
+body {
+  /*background-color: DarkGreen;*/
+  background-image: url('Backgrounds/clouds1.jpg');
+}
+
+table, tr, th{
+   border: 1px solid black;
+}
