@@ -1,7 +1,13 @@
 body {
   /*background-color: DarkGreen;*/
-  background-image: url('clouds1.jpg');
-  color:black;
+  background-image: url('Assets/perfect_cell.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+  color:coral;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 10px;
@@ -10,6 +16,10 @@ body {
 
 table, tr, th{
    border: 1px solid black;
+}
+
+a {
+  color:DarkCyan; 
 }
 
 h1 {
