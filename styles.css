@@ -1,33 +1,37 @@
-body {
+body { /*GLlobal variables*/
+  /*Background configuration*/
   /*background-color: DarkGreen;*/
-  background-image: url('Assets/abzu.jpeg');
+  background-image: url('Assets/dark-trees.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 
-
+  /*Text configuration*/
   color:#C36241; /*coral*/
+  color:seashell;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-tr, th, td{
+table, td{ /*Table outline*/
    border: 1px solid black;
 }
 
-a {
-  color:DarkCyan; 
+
+
+a { /*Hyperlink colors */
+  color:coral; /*DarkCyan*/
 }
 
-h1 {
+h1 { /*Fixing page title*/
   margin-top: 2px;
   margin-bottom: 5px;
 }
 
-.smallMargins {
+.smallMargins { /*Class: small margins*/
   margin-top: 0px;
   margin-bottom: 0px;
 }
